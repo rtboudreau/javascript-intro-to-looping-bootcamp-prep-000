@@ -1,7 +1,7 @@
 for (let i = 0; i < 25; i++){
   if(i == 1){
-    return 'I am 1 strange loop.'
+    return 'I am 1 strange loop.';
   } else{
-    return `I am ${1} strange loops.`
+    return `I am ${1} strange loops.`;
   }
 }
