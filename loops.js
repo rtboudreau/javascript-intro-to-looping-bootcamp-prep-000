@@ -16,3 +16,7 @@ function whileLoop(n = 50){
   {console.log(n--)}
   return "done"
 }
+
+function doWhileLoop(array) {
+  
+}
