@@ -26,6 +26,7 @@ function doWhileLoop(array) {
   
  do {
   array.pop();
+  incrementVariable()
 } while (array.length > -1 && maybeTrue())
 
   return array
