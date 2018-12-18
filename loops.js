@@ -25,7 +25,7 @@ function doWhileLoop(array) {
   }
 
   do {
-    array.splice(i,1)
+    array.pop()
   } while( array.length > 0 && incrementVariable()) 
   return array
 }
