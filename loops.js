@@ -18,5 +18,5 @@ function whileLoop(n = 50){
 }
 
 function doWhileLoop(array) {
-  
+  var i = 0;
 }
