@@ -24,9 +24,10 @@ function doWhileLoop(array) {
     i = i + 1;
   }
   
-  do {
+ do {
   array = array.slice(1)
-  } while (array.length > 0 && maybeTrue())
+} while (array.length > 0 && maybeTrue())
+return array
   
-  return array
+
 }
